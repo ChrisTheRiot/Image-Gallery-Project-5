@@ -9,21 +9,21 @@ body .content {
 }
 
 input {
-    width: 35%;
+    width: 40%;
     padding-left: 10px;
 }
 
 main {
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 
 .flex-container {
-    height: 750px;
+    height: 700px;
+    width: 916px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
- 
+    justify-content: space-around; 
 }
 
 

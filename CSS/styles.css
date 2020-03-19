@@ -1,0 +1,29 @@
+body .content {
+    background-color: #fff;
+    color: #525354
+}
+
+.search {
+    text-align: center;
+    padding: 25px 0;
+}
+
+input {
+    width: 35%;
+    padding-left: 10px;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+.flex-container {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+
+

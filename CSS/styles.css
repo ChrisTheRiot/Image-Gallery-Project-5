@@ -1,29 +1,44 @@
+html {
+    font-size: 16px;
+}
+
 body .content {
     background-color: #fff;
     color: #525354
 }
 
-.search {
+.searchbar {
     text-align: center;
-    padding: 25px 0;
+    padding: 2rem 0;
+    width: 100%;
 }
 
 input {
-    width: 40%;
-    padding-left: 10px;
+    width: 30%;
+    padding-left: 0.5rem;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 85%;
     margin: auto;
 }
 
 .flex-container {
-    height: 700px;
-    width: 916px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    max-width: 900px;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
+li {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
 
+.hidden {
+    display: none;
+}
